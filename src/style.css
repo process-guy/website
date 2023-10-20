@@ -1,0 +1,29 @@
+.top-part {
+  background-image: radial-gradient(circle at bottom right, rgb(246, 219, 205), rgb(246, 219, 205), rgb(181, 205, 241), rgb(227, 231, 238));
+}
+
+.row>.col>.box {
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.row>.col:nth-child(1)>.box {
+  background-color: #2d69f0;
+}
+
+.row>.col:nth-child(2)>.box {
+  background-color: #dd246e;
+}
+
+.row>.col:nth-child(3)>.box {
+  background-color: #0dae75;
+}
+
+.row>.col:nth-child(4)>.box {
+  background-color: #8007e6;
+}
+
+.gray-bg {
+  background-color: rgb(238, 235, 232);
+}
