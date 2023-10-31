@@ -25,5 +25,24 @@
 }
 
 .gray-bg {
-  background-color: rgb(238, 235, 232);
+  background-image: radial-gradient(circle at bottom center, rgb(236, 235, 234), rgb(214, 213, 212), #fff, #f4f1f1d4);
+
+}
+
+.box {
+  box-shadow: 0px 15px 35px gray;
+}
+
+
+.mb-1000 {
+  margin-bottom: 1000px;
+}
+
+.pb-7 {
+  padding-bottom: 7rem;
+}
+
+.course_more {
+  border-top: 1px solid #f0f0f5;
+  padding-top: 10px;
 }

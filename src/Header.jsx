@@ -2,7 +2,7 @@ function Header() {
 	return (
 		<>
 			<section class="top-part container-fluid">
-				<div class="container-lg pt-3">
+				<div class="container pt-3">
 					<div class="pb-3">
 						<img src="/logo-wt.svg" width="200px" />
 					</div>
