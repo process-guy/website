@@ -1,3 +1,5 @@
+import { JournalAlbum } from "react-bootstrap-icons";
+
 function OneCourse(props) {
 	return (
 		<>
@@ -5,7 +7,9 @@ function OneCourse(props) {
 				<img src="/c1.jpg" />
 				<div class="card-body">
 					<div class="d-flex align-items-center justify-content-between">
-						<div>{props.info.lessons} Lessons</div>
+						<div>
+							<JournalAlbum /> {props.info.lessons} Lessons
+						</div>
 						<div>Ratings</div>
 					</div>
 					<h5 class="mt-3 mb-4">{props.info.title}</h5>
